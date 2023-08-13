@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+}
+
+.slider {
+
+    margin: 10px 15px;
+    width: 97%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+
+}
+  
+#redSquare {
+
+    width: 150px;
+    height: 150px;
+    margin: 100px 30px;
+
+    background-color: rgb(236, 52, 52);
+    right: 0;
+
+    position: absolute;
+    transition: all 0.2s;
+  }
+
+  #blueSquare {
+
+    width: 150px;
+    height: 150px;
+    margin: 400px 30px;
+
+    background-color: rgb(61, 52, 236);
+    left: 0;
+
+    position: absolute;
+    transition: all 0.2s;
+
+  }
